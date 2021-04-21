@@ -8,6 +8,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 
 import { RouterModule } from '@angular/router';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
     ProgressComponent,
     GraphicsComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -27,6 +29,7 @@ import { RouterModule } from '@angular/router';
     ProgressComponent,
     GraphicsComponent,
     PagesComponent,
+    AccountSettingsComponent
   ],
 })
 export class PagesModule {}
