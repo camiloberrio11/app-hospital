@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { RouterModule } from '@angular/router';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     GraphicsComponent,
     PagesComponent,
     AccountSettingsComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
